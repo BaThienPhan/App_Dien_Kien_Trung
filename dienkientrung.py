@@ -96,10 +96,10 @@ if page == "Vị trí":
 
     col1, col2 = st.columns(2)
     with col1:
-        st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/vi-tri-1.jpg"),
+        st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/vi-tri-1.jpg"),
                  caption="Điện Kiến Trung thời Pháp", use_column_width=True)
     with col2:
-        st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/vi-tri-2.jpg"),
+        st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/vi-tri-2.jpg"),
                  caption="Sơ đồ Đại Nội", use_column_width=True)
 
     st.markdown("""
