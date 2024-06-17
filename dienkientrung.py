@@ -122,7 +122,7 @@ elif page == "Lịch sử":
     Đến thời vua Duy Tân, công trình được kiến tạo và mang tên lầu Du Cửu (1913-1916).
     </div>
     """, unsafe_allow_html=True)
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/ls-phong-choi-bia.jpg"),
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/ls-phong-choi-bia.jpg"),
              caption="Phòng chơi Bi-a", use_column_width=True)
     st.markdown("""
     <div class='text'>
@@ -131,7 +131,7 @@ elif page == "Lịch sử":
     </div>
     """, unsafe_allow_html=True)
 
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/ls-do-ma-khai-dinh.jpg"),
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/ls-do-ma-khai-dinh.jpg"),
              caption="Giấy vàng mã hình Điện Kiến Trung trong đám tang vua Khải Định", use_column_width=True)
 
     st.markdown("""
@@ -140,7 +140,7 @@ elif page == "Lịch sử":
     Vua và hoàng hậu Nam Phương sau đó dọn về sống trong điện Kiến Trung.
     """, unsafe_allow_html=True)
 
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/ls-di-tich-con-lai.jpg"),
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/ls-di-tich-con-lai.jpg"),
              caption="Điện Kiến Trung sau cách mạng.", use_column_width=True)
     st.markdown("""
     <div class='text'>
@@ -149,7 +149,7 @@ elif page == "Lịch sử":
     </div>
     """, unsafe_allow_html=True)
 elif page == "Trùng tu":
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/Sau-phuc-dung-1.jpg"),
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/Sau-phuc-dung-1.jpg"),
              caption="Phác thảo dự án.", use_column_width=True)
     st.markdown("<div class='title'>Phục dựng Điện Kiến Trung</div>",
                 unsafe_allow_html=True)
@@ -161,7 +161,7 @@ elif page == "Trùng tu":
     Cuối cùng dự án này đã được khởi công vào ngày 16 tháng 2 năm 2019 với tổng kinh phí hơn 123 tỉ đồng dự kiến hoàn tất vào tháng 8 năm 2023.
     </div>
     """, unsafe_allow_html=True)
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/tt-dien-kien-dang-khoi-phuc-1.jpg"),
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/tt-dien-kien-dang-khoi-phuc-1.jpg"),
              caption="Quá trình thi công.", use_column_width=True)
     st.markdown("""
     <div class='header'>Trùng tu</div>
@@ -170,9 +170,9 @@ elif page == "Trùng tu":
     Kiểu thức điện là hợp thể phong cách Âu châu gồm kiến trúc Pháp, kiến trúc Phục hưng của Ý cùng pha thêm kiến trúc cổ truyền Việt Nam. 
     </div>
     """, unsafe_allow_html=True)
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/tt-dien-kien-trung-dang-thi-cong-2.jpg"),
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/tt-dien-kien-trung-dang-thi-cong-2.jpg"),
              caption="Hình ảnh 1", use_column_width=True)
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/Sau-phuc-dung-2.jpg"),
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/Sau-phuc-dung-2.jpg"),
              caption="Điện Kiến trung sau phục dựng", use_column_width=True)
     st.markdown("""
     <div class='text'>
@@ -181,10 +181,10 @@ elif page == "Trùng tu":
     """, unsafe_allow_html=True)
     col1, col2 = st.columns(2)
     with col1:
-        st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/Sau-phuc-dung-hoa-tiet-4.jpg"),
+        st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/Sau-phuc-dung-hoa-tiet-4.jpg"),
                  caption="", use_column_width=True)
     with col2:
-        st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/Sau-phuc-dung-hoa-tiet-5.jpg"),
+        st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/Sau-phuc-dung-hoa-tiet-5.jpg"),
                  caption="", use_column_width=True)
     st.markdown("""
     <div class='text'>
@@ -192,7 +192,7 @@ elif page == "Trùng tu":
     </div>
     """, unsafe_allow_html=True)
 
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/Sau-phuc-dung-2.jpg"),
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/Sau-phuc-dung-2.jpg"),
              caption="Hình ảnh 1", use_column_width=True)
 
     st.markdown("""
@@ -200,7 +200,7 @@ elif page == "Trùng tu":
     Tầng trên là gác, làm cùng một thể thức như tầng chính. Trên cùng là mái ngói có hàng lan can trang trí theo phong cách Việt Nam.
     </div>
     """, unsafe_allow_html=True)
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main//Sau-phuc-dung-3.jpg"),
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/Sau-phuc-dung-3.jpg"),
              caption="Hình ảnh 2", use_column_width=True)
 
 elif page == "Du lịch":
@@ -210,15 +210,15 @@ elif page == "Du lịch":
     Dưới đây là một số hình ảnh du khách và các sự kiện diễn ra tại Điện Kiến Trung.
     </div>
     """, unsafe_allow_html=True)
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/du-khach-1.jpg"),
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/du-khach-1.jpg"),
              caption="Hình ảnh du khách khá vui vẻ khi thăm quan.", use_column_width=True)
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/du-khach-1-1.jpg"),
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/du-khach-1-1.jpg"),
              caption="", use_column_width=True)
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/du-khach-2.jpg"),
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/du-khach-2.jpg"),
              caption="", use_column_width=True)
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/du-khach-3.jpg"),
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/du-khach-3.jpg"),
              caption="", use_column_width=True)
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/du-khach-4.jpg"),
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/du-khach-4.jpg"),
              caption="", use_column_width=True)
     st.markdown("""
     <div class='header'>Festival 2024</div>
@@ -226,13 +226,13 @@ elif page == "Du lịch":
     Một số hình ảnh các sự kiện diễn ra tại Điện Kiến Trung.
     </div>
     """, unsafe_allow_html=True)
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/festival-dien-kien-trung-1.jpg"),
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/festival-dien-kien-trung-1.jpg"),
              caption="", use_column_width=True)
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/festival-dien-kien-trung-2.jpg"),
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/festival-dien-kien-trung-2.jpg"),
              caption="", use_column_width=True)
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/festival-dien-kien-trung-3.jpg"),
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/festival-dien-kien-trung-3.jpg"),
              caption="", use_column_width=True)
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/main/festival-dien-kien-trung-4.jpg"),
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/festival-dien-kien-trung-4.jpg"),
              caption="", use_column_width=True)
 elif page == "Liên hệ":
     st.markdown("<div class='title'>Liên hệ</div>", unsafe_allow_html=True)
