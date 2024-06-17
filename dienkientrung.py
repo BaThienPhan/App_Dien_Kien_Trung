@@ -169,7 +169,6 @@ elif page == "Trùng tu":
     st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/tt-dien-kien-dang-khoi-phuc-1.jpg"),
              caption="Quá trình thi công.", use_column_width=True)
     st.markdown("""
-    <div class='header'>Trùng tu</div>
     <div class='text'>
     Điện Kiến Trung nổi bật với kiến trúc độc đáo, kết hợp giữa phong cách truyền thống Việt Nam và ảnh hưởng của kiến trúc phương Tây.
     Kiểu thức điện là hợp thể phong cách Âu châu gồm kiến trúc Pháp, kiến trúc Phục hưng của Ý cùng pha thêm kiến trúc cổ truyền Việt Nam. 
