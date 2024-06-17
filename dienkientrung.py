@@ -153,11 +153,16 @@ elif page == "Trùng tu":
                 unsafe_allow_html=True)
     st.markdown("""
     <div class='header'></div>
-    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/Sau-phuc-dung-1.jpg"),
-             caption="Phác thảo dự án.", use_column_width=True)
     <div class='text'>
     Từ năm 2013, Trung tâm Bảo tồn di tích cố đô Huế đã khởi động dự án phục hồi điện Kiến Trung, với sự hợp tác của nhiều nhà nghiên cứu về lịch sử, văn hóa và mỹ thuật Huế và sự tham gia của Phân viện khoa học công nghệ xây dựng Miền Trung.
     Dự án phục dựng Điện Kiến Trung dự kiến bắt đầu năm 2018 và hoàn thành vào năm 2020 tuy nhiên đã có một số phản biện về việc phục dựng sai lệch với bản gốc. 
+    </div>
+    """, unsafe_allow_html=True)
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/Sau-phuc-dung-1.jpg"),
+             caption="Phác thảo dự án.", use_column_width=True)
+    st.markdown("""
+    <div class='header'></div>
+    <div class='text'>
     Cuối cùng dự án này đã được khởi công vào ngày 16 tháng 2 năm 2019 với tổng kinh phí hơn 123 tỉ đồng dự kiến hoàn tất vào tháng 8 năm 2023.
     </div>
     """, unsafe_allow_html=True)
