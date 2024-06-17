@@ -90,7 +90,7 @@ if page == "Vị trí":
     <div class='header'>Vị trí</div>
     <div class='text'>
     Điện Kiến Trung được biết đến là một trong những địa điểm du lịch Huế nằm trong khu vực Đại Nội Huế.
-    Hiện nay, tọa lạc ở số 32 đường Đặng Thái Thân, thuộc phường Phú Hậu, TP. Huế, nằm bên trong điểm du lịch nổi tiếng kinh thành Huế.
+    Hiện nay, tọa lạc ở số 32 đường Đặng Thái Thân, thuộc phường Đông Ba, TP. Huế, nằm bên trong điểm du lịch nổi tiếng kinh thành Huế.
     </div>
     """, unsafe_allow_html=True)
 
@@ -154,7 +154,7 @@ elif page == "Trùng tu":
     st.markdown("<div class='title'>Phục dựng Điện Kiến Trung</div>",
                 unsafe_allow_html=True)
     st.markdown("""
-    <div class='header'>Kiến trúc</div>
+    <div class='header'></div>
     <div class='text'>
     Từ năm 2013, Trung tâm Bảo tồn di tích cố đô Huế đã khởi động dự án phục hồi điện Kiến Trung, với sự hợp tác của nhiều nhà nghiên cứu về lịch sử, văn hóa và mỹ thuật Huế và sự tham gia của Phân viện khoa học công nghệ xây dựng Miền Trung.
     Dự án phục dựng Điện Kiến Trung dự kiến bắt đầu năm 2018 và hoàn thành vào năm 2020 tuy nhiên đã có một số phản biện về việc phục dựng sai lệch với bản gốc. 
