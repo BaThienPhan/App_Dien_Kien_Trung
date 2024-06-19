@@ -67,7 +67,7 @@ st.markdown("""
 # Sidebar
 st.sidebar.title("ĐIỆN KIẾN TRUNG")
 page = st.sidebar.selectbox(
-    "Thông tin", ["Vị trí", "Lịch sử", "Trùng tu", "Du lịch", "Liên hệ"])
+    "Thông tin", ["Vị trí", "Lịch sử", "Trùng tu", "Du lịch", "Giá vé"])
 
 # Hàm tải ảnh từ URL
 
@@ -86,6 +86,8 @@ def load_image(url):
 if page == "Vị trí":
     st.markdown("<div class='title'>Di tích Điện Kiến Trung Huế</div>",
                 unsafe_allow_html=True)
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/pt-mo-dau.jpg"),
+             caption="", use_column_width=True)
     st.markdown("""
     <div class='header'>Vị trí</div>
     <div class='text'>
@@ -238,10 +240,12 @@ elif page == "Du lịch":
              caption="", use_column_width=True)
     st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/festival-dien-kien-trung-4.jpg"),
              caption="", use_column_width=True)
-elif page == "Liên hệ":
-    st.markdown("<div class='title'>Liên hệ</div>", unsafe_allow_html=True)
+elif page == "Giá vé":
+    st.markdown("<div class='title'>Giá vé</div>", unsafe_allow_html=True)
+    st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/pt-gia-ve.jpg"),
+             caption="", use_column_width=True)
     st.markdown("""
-    <div class='header'>Liên hệ</div>
+    #<div class='header'>Liên hệ</div>
     <div class='text'>
     Nếu bạn có bất kỳ câu hỏi nào hoặc muốn biết thêm thông tin, vui lòng liên hệ với chúng tôi qua 
                 <a href="https://www.facebook.com/profile.php?id=100007886267521">Click here</a>
