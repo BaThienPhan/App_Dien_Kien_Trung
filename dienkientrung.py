@@ -248,7 +248,12 @@ elif page == "Giá vé":
     #<div class='header'>Liên hệ</div>
     <div class='text'>
     Nếu bạn có bất kỳ câu hỏi nào hoặc muốn biết thêm thông tin, vui lòng liên hệ với chúng tôi qua 
-                <a href="https://www.facebook.com/profile.php?id=100007886267521">Click here</a>
+                <a href="https://www.youtube.com/watch?v=UR3tHk5Gjc8">Video</a>
+    </div>
+    """, unsafe_allow_html=True)
+        <div class='text'>
+    Nếu bạn có bất kỳ câu hỏi nào hoặc muốn biết thêm thông tin, vui lòng liên hệ với chúng tôi qua 
+                <a href="https://www.facebook.com/profile.php?id=100007886267521">Tác Giả</a>
     </div>
     """, unsafe_allow_html=True)
     # Form liên hệ
